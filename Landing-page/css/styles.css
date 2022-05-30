@@ -7960,7 +7960,8 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: black !important;
+  color: white !important;
+  line-height: 2.1rem;
 }
 
 .text-reset {
@@ -11564,7 +11565,7 @@ body {
   min-height: 35rem;
   padding: 10rem 0;
   /* padding-bottom: 15rem; */
-  background: linear-gradient(to bottom, rgba(154, 154, 158, 0.01) 0%, rgba(154, 154, 158, 0.2) 75%, #b4b4b4 100%), url("../assets/img/undraw3.svg");
+  /*background: linear-gradient(to bottom, rgba(154, 154, 158, 0.01) 0%, rgba(154, 154, 158, 0.2) 75%, #b4b4b4 100%), url("../assets/img/undraw3.svg");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;

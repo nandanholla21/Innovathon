@@ -18,6 +18,13 @@
            h1{
                color: black;
            }
+            #myvideo {
+                position:absolute;
+                right: 0;
+                bottom: 0;
+                min-width: 100%; 
+                min-height: 100%;
+            }
         </style>
 
 
@@ -41,13 +48,18 @@
             </div>
         </nav>
         <!-- Masthead-->
-
+        <video autoplay muted loop id="myvideo">
+            <source src="gears.mp4" type="video/mp4">
+        </video>
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">INNOVATHON</h1>
-                        <h2  style="color: #3b82f6;"><b>- Ideas that matter</b></h2>
+                        
+                        <h1 class="mx-auto my-0 text-uppercase"><b>INNOVATHON</b></h1>
+                        &nbsp;
+                        <center><h2  style="color: #3b82f6;"><b>- Ideas that matter</b></h2></center>
+        
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Think Beyond presents Innovathon - Ideas That Matter get certificates and <b>cash prizes up to 25k</b> and have a chance to <B>get grants to project your ideas into products.</B> </h2>
                         <a class="btn btn-primary" href="#about">Know more</a>
                     </div>
